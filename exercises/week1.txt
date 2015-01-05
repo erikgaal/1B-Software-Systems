@@ -1,0 +1,64 @@
+1.5
+a.	building, room
+b.	isbn, id, title, author, publisher, year, language, available
+c.	price, brand, model, weigth, volume
+d.	item slots, equipment slots,
+e.	max size, max weight, speed, floors, current floor
+
+1.6
+a.	getRoom() {}
+b.	getAuthor() {}
+c.	getPrice(String brand, String model) {}
+d.	getItemAtSlot(int slot) {}
+e.	getCurrentFloor() {}
+
+1.7
+a.	setRoom(String building, int room) {}
+b.	toggleAvailable() {}
+c.	setPrice(double price) {}
+d.	setItemAtSlot(int slot, Item item) {}
+e.	setFloor(int floor) {}
+
+1.8
+a.	new CarManufacturer("Audi", 1909, "Germany", "Ingolstadt")			// name, founded, country, city
+	new CarManufacturer("Opel", 1862, "Germany", "Rüsselsheim")
+b.	new Car() {<AudiObject>, "A7", 2010, <generic engine here>} 			// manufacturer (object), type, year, engine
+	new Car() {<OpelObject>, "Zafira", 2011, <generic engine here>}
+c.	new Video() {"The Fault in Our Stars", 2014, <Josh Boone>, 126, 1015, true}	// title, year, director (object), length, id, available
+	new Video() {"Ouija", 2014, <Stiles White>, 89, 1029, false}
+d.	new Customer() {"John Doe", <Address1>, <VideosRented1>, 0.0d}			// name, address (object), list of rented videos (object?), fine
+	new Customer() {"Annie Smith", <Address2>, <VideosRented2>, 10.20d}
+
+1.9
+a.	Country could be a refenrenced object, but in this case it's just a string.
+b.	AudiObject refers to the car manufacturer
+c.	Josh Boone refers to an object modeling a director
+d.	Address and VideosRented refer to objects modeling an address and a list of videos rented.
+
+------------------------
+
+1.2
+integer setting would be the easiest.
+getSetting() {}
+setSetting(int setting) {}
+
+2.4
+JAVACODE
+
+-------------------------
+
+2.14
+JAVACODE
+
+-------------------------
+
+3.8
+JAVACODE
+
+-------------------------
+
+4.2
+JAVACODE
+
+-------------------------
+

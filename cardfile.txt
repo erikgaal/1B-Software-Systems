@@ -1,0 +1,3 @@
+Clubs king
+Diamonds 9
+Spades 5

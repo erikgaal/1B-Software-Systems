@@ -1,0 +1,15 @@
+## JetBrains IDE
+*.iml
+*.eml
+.idea/
+
+## Eclipse
+*.project
+*.classpath
+.metadata
+
+## Documentation
+doc/
+
+## Binaries
+out/

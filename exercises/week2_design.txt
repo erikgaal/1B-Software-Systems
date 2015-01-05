@@ -1,0 +1,42 @@
+1.13
+Polderland Culture Programme    | Information source which consists of all performances
+                                | of the Polderland Theatre
+
+Production                      | A play or gig from a single category, possibly consiting
+                                | of more than one performances
+                                | eg. Lady Gaga Tour is one production, but multiple performances
+
+Performance                     | A single appearance of an entire production,
+                                | every performance has a unique date and location
+
+Cultural Youth Passport         | Discount card for youthlings (<18) that may credit 
+                                | the user with a discount of a maximum of 25%
+
+Culture Card Polderland         | Discount card for anyone that may credit the user
+                                | with a discount of a maximum of 25%
+
+1.14
+1   | To list all performances of all productions   | Browse performances
+    | in the region for the entire season           |
+
+2   | To sell any ticket at any theate              | Sell a ticket
+
+3   | To list available seats at a performances     | Browse seats
+
+4   | To apply discount on a performance if         | Apply discount
+    | applicable                                    |
+
+5   | To enter a paper form in the digital system   | Process order form
+
+6   | To check a customers ticket for validity      | Scan ticket
+
+7   | To cancel a ticket                            | Cancel ticket
+
+8   | 
+
+1.15
+Staff                   | Any member of the PCP Staff
+
+Customer                | 
+
+Administrative Staff    |

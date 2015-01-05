@@ -1,0 +1,11 @@
+2.2
+If the length and width specified are correct according to the assertions/requirements the resulting queries CANNOT fail.
+
+2.10
+90% van de methods, 85% van de lines uit Safe
+Niet elke class wordt uitgevoerd
+Met een test wil je juist de coverage zo hoog mogelijk hebben zodat zeker is dat alles wordt getest.
+
+2.11
+Executing as a regular Java Application ignores the assertions, and runs normally.
+Executing with -ea also takes assertions in account, and thus crashed when execuitng .open() with an empty password
