@@ -3,3 +3,10 @@ hij leest niet één keer uit na schrijven, maar blijft lezen
 
 7.17
 In sommige gevallen worden waardes tegelijk door twee threads geschreven waardoor er maar één wijziging wordt doorgevoerd.
+
+7.18
+1. 1, 2, 3
+2. 3
+3. 0, 1, 2, 3
+4. 1, 2, 3
+5. synchronized
