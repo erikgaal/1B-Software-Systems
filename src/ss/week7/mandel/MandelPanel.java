@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 class MandelPanel extends JPanel implements Runnable
 {
 	public void draw() {
-		(new MandelThread(this)).start();
+		new Thread(this).start();
 	}
 
 
@@ -114,6 +114,6 @@ class MandelPanel extends JPanel implements Runnable
 
 	@Override
 	public void run() {
-
+		this.drawMandel();
 	}
 }

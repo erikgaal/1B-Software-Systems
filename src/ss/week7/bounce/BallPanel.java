@@ -3,10 +3,11 @@ package ss.week7.bounce;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-import javax.swing.JPanel;
+import javax.swing.*;
 
 /**
  * BallPanel a special JPanel for drawing balls on.
@@ -15,9 +16,12 @@ import javax.swing.JPanel;
  */
 public class BallPanel extends JPanel implements ActionListener {
 	private List<Ball> balls; // @invariant balls != null
+	private Timer timer;
 
 	public BallPanel() {
 		balls = new java.util.ArrayList<Ball>();
+		timer = new Timer(1, this);
+		timer.start();
 	}
 
 	/**
@@ -25,7 +29,6 @@ public class BallPanel extends JPanel implements ActionListener {
 	 * Move and repaint the balls
 	 */
 	public void actionPerformed(ActionEvent evt) {
-		new AnimateThread().run();
 		moveBalls();
 		repaint();
 	}
