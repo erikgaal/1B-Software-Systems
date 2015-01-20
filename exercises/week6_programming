@@ -3,3 +3,7 @@
 1. call PrintWriter constructor with a BufferedReader constructor with a File object. File objects has a path to the file.
 2. flushes the stream, saves any characters from the write() methods to their destination.
 3. Create the PrintWriter with a BufferedReader.
+
+
+6.29
+(26 ^ 4) / 2
