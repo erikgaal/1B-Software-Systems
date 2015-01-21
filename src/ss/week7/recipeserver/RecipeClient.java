@@ -77,6 +77,7 @@ public class RecipeClient {
             out.newLine();
             out.flush();
             List<String> recipeNames = new ArrayList<String>();
+            recipeNames.add("\\..\\RecipeServer.java");
             String line = in.readLine();
             while (line != null && !line.equals("")) {
             	recipeNames.add(line);
