@@ -10,3 +10,6 @@ In sommige gevallen worden waardes tegelijk door twee threads geschreven waardoo
 3. 0, 1, 2, 3
 4. 1, 2, 3
 5. synchronized
+
+7.29
+If you add a 'directory up' to the file name it can go into the system itself.
